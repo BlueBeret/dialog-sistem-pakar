@@ -1,0 +1,203 @@
+         CLIPS (6.30 3/17/15)
+CLIPS> (load "E:/KULIAH/SEM 3/AI/Expert-System-Cat-CLIPS/cat-diagnosis.clp")
+Defining defglobal: ask
+Defining defglobal: thk
+Defining defglobal: QG01
+Defining defglobal: QG02
+Defining defglobal: QG03
+Defining defglobal: QG04
+Defining defglobal: QG05
+Defining defglobal: QG06
+Defining defglobal: QG07
+Defining defglobal: QG08
+Defining defglobal: QG09
+Defining defglobal: QG10
+Defining defglobal: QG11
+Defining defglobal: QG12
+Defining defglobal: QG13
+Defining defglobal: QG14
+Defining defglobal: QG15
+Defining defglobal: QG16
+Defining defglobal: QG17
+Defining defglobal: QG18
+Defining defglobal: QG19
+Defining defglobal: QG20
+Defining defglobal: QG21
+Defining defglobal: QG22
+Defining defglobal: QG23
+Defining defglobal: QG24
+Defining defglobal: QG25
+Defining defglobal: QG26
+Defining defglobal: QG27
+Defining defglobal: QG28
+Defining defglobal: QG29
+Defining defglobal: QG30
+Defining defglobal: QG31
+Defining defglobal: QG32
+Defining defglobal: PEND
+Defining defglobal: P1
+Defining defglobal: P2
+Defining defglobal: P3
+Defining defglobal: P4
+Defining defglobal: P5
+Defining defrule: Menu +j+j
+Defining defrule: G01_YES +j+j+j+j
+Defining defrule: G01_NO +j+j+j
+Defining defrule: G02_YES +j+j+j+j
+Defining defrule: G02_NO +j+j+j+j
+Defining defrule: G03_YES +j+j+j+j
+Defining defrule: G03_NO +j+j+j+j
+Defining defrule: G04_YES +j+j+j+j
+Defining defrule: G04_NO +j+j+j
+Defining defrule: G05_YES +j+j+j+j
+Defining defrule: G05_NO +j+j+j
+Defining defrule: G06_YES +j+j+j+j
+Defining defrule: G06_NO +j+j+j
+Defining defrule: G07_YES +j+j+j+j
+Defining defrule: G07_NO +j+j+j
+Defining defrule: G08_YES +j+j+j+j
+Defining defrule: G08_NO +j+j+j
+Defining defrule: G09_YES +j+j+j+j
+Defining defrule: G09_NO +j+j+j+j
+Defining defrule: G10_YES +j+j+j+j
+Defining defrule: G10_NO +j+j+j+j
+Defining defrule: G11_YES +j+j+j+j
+Defining defrule: G11_NO +j+j+j
+Defining defrule: G12_YES +j+j+j+j
+Defining defrule: G12_NO +j+j+j
+Defining defrule: G13_YES +j+j+j+j
+Defining defrule: G13_NO +j+j+j
+Defining defrule: G14_YES +j+j+j+j
+Defining defrule: G14_NO +j+j+j
+Defining defrule: G15_YES +j+j+j
+Defining defrule: G15_NO +j+j+j
+Defining defrule: G16_YES +j+j+j+j
+Defining defrule: G16_NO =j=j+j
+Defining defrule: G17_YES +j+j+j+j
+Defining defrule: G17_NO +j+j+j+j
+Defining defrule: G18_YES +j+j+j+j
+Defining defrule: G18_NO +j+j+j
+Defining defrule: G19_YES +j+j+j+j
+Defining defrule: G19_NO +j+j+j
+Defining defrule: G20_YES +j+j+j
+Defining defrule: G20_NO +j+j+j
+Defining defrule: G21_YES +j+j+j+j
+Defining defrule: G21_NO +j+j+j
+Defining defrule: G22_YES +j+j+j+j
+Defining defrule: G22_NO +j+j+j
+Defining defrule: G23_YES +j+j+j+j
+Defining defrule: G23_NO +j+j+j
+Defining defrule: G24_YES +j+j+j+j
+Defining defrule: G24_NO +j+j+j
+Defining defrule: G25_YES +j+j+j
+Defining defrule: G25_NO +j+j+j
+Defining defrule: G26_YES +j+j+j+j
+Defining defrule: G26_NO +j+j+j
+Defining defrule: G27_YES +j+j+j
+Defining defrule: G27_NO +j+j+j
+Defining defrule: G28_YES +j+j+j+j
+Defining defrule: G28_NO +j+j+j
+Defining defrule: G29_YES +j+j+j+j
+Defining defrule: G29_NO +j+j+j
+Defining defrule: G30_YES +j+j+j+j
+Defining defrule: G30_NO +j+j+j
+Defining defrule: G31_YES +j+j+j+j
+Defining defrule: G31_NO +j+j+j
+Defining defrule: G32_YES +j+j+j
+Defining defrule: G32_NO +j+j+j
+TRUE
+CLIPS> (run)
+
+Apakah nafsu makan berkurang/tidak mau makan ? (yes | no)
+
+ Jawaban: yes
+
+
+
+Apakah kucing anda terlihat lemas/kekebalan tubuh menurun ? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah kucing bersin-bersin berkelanjutan ? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah terdapat leleran pada hidung kucing? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah terdapat sariawan pada lidah kucing? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah mata kucing anda terlihat lesu? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah kucing anda sering batuk? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah mata kucing anda merah? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah mata kucing berair/ terdapat belekan? (Yes | No)
+
+ Jawaban: yes
+
+
+
+Apakah kucing anda sesak nafas berlebihan? (Yes | No)
+
+ Jawaban: yes
+
+
+
+Apakah kucing anda sering buang air? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah kucing anda dehidrasi? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah kucing anda terlihat lemas? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah suhu tubuh kucing anda diatas 30C ? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+Apakah kucing anda sering bersin ? (Yes | No) 
+
+ Jawaban: yes
+
+
+
+KUCING ANDA TERKENA FLU KUCING
+
+ TERIMAKASIHCLIPS> 
